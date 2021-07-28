@@ -1,0 +1,85 @@
+.head{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 40px;
+}
+
+.head > h1{
+    color: #b8a8dd;
+}
+
+.todo-input{
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.todo-input > input{
+    border: 2px solid #b8a8dd;
+    background-color: #f7f7f7;
+    color: #091922;
+    padding: 5px 5px;
+    border-radius: 0.4rem;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.todo-input > button{
+    border: 2px solid #091922;
+    background: linear-gradient(180deg,#091922,#0b2a3b);
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #f7f7f7;
+    border-radius: 0.4rem;
+    width: 80%;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.todo-container{
+    text-align: center;
+    width: 80vw;
+    margin: 30px auto;
+    padding: 20px 20px;
+    border-radius: 0.4rem;
+}
+
+button:focus{
+    outline: none;
+}
+
+.todo-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(199, 199, 199);
+    padding: 5px 5px;
+}
+
+.todo-list > span{
+    color: #091922;
+    font-weight: bold;
+}
+
+.delete{
+    background: linear-gradient(180deg, #c21808, #961105);
+    padding: 5px 5px;
+    border: none;
+    color: #f7f7f7;
+    border-radius: 0.2rem;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.edit{
+    background: linear-gradient(180deg, #4285f4, #2968cc);
+    padding: 5px 5px;
+    border: none;
+    color: #f7f7f7;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
